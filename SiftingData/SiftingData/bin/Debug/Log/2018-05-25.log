@@ -1,0 +1,241 @@
+09:21:57.840 @DEL001 2010011
+09:21:57.840 @DEL002 东方田园条茶16孔下
+09:21:57.840 @DEL003 
+09:21:57.840 @DEL004 KG
+09:21:57.840 @DEL005 2018030803,30
+09:21:57.840 @DEL006 冷库A5
+09:21:57.840 @DEL007 1
+09:21:57.840 @DEL008 2
+09:21:57.840 @DEL009 3
+09:21:57.856 @DEL010 1
+09:21:57.856 @DEL011 GD201804040006
+09:21:57.856 @DEL001 2010011
+09:21:57.856 @DEL002 东方田园条茶16孔下
+09:21:57.856 @DEL003 
+09:21:57.856 @DEL004 KG
+09:21:57.856 @DEL005 2018012802,16
+09:21:57.856 @DEL006 有机区
+09:21:57.856 @DEL007 2
+09:21:57.856 @DEL008 3.000000
+09:21:57.872 @DEL009 7.000000
+09:21:57.872 @DEL010 3.000000
+09:21:57.872 @DEL011 GD201804040006
+09:21:57.872 @idx 1
+09:21:57.872 @DEL001 2010011
+09:21:57.872 @DEL002 东方田园条茶16孔下
+09:21:57.872 @DEL003 
+09:21:57.872 @DEL004 KG
+09:21:57.872 @DEL005 2017111106,30
+09:21:57.872 @DEL006 冷库A3
+09:21:57.872 @DEL007 3
+09:21:57.872 @DEL008 4
+09:21:57.887 @DEL009 1
+09:21:57.887 @DEL010 5
+09:21:57.887 @DEL011 GD201804040006
+10:22:01.479 @RAB001 GD201804040006
+10:22:01.481 @RAB002 000
+10:22:01.482 @RAB003 1010001
+10:22:01.484 @RAB004 通商绿茶
+10:22:01.485 @RAB005 KG
+10:22:01.486 @RAB007 17.000000
+10:22:01.488 @RAB020 
+10:22:01.489 @RAB980 3
+10:22:01.490 @RAB981 5.000000
+10:22:01.492 @RAB982 6.000000
+10:22:01.504 @RAB001 GD201804040006
+10:22:01.506 @RAB002 001
+10:22:01.507 @RAB003 2010011
+10:22:01.508 @RAB004 东方田园条茶16孔下
+10:22:01.509 @RAB005 KG
+10:22:01.509 @RAB007 31.000000
+10:22:01.510 @RAB020 
+10:22:01.511 @RAB980 6
+10:22:01.512 @RAB981 11.000000
+10:22:01.513 @RAB982 9.000000
+10:22:01.554 违反了 PRIMARY KEY 约束 'SGMRABK0'。不能在对象 'dbo.SGMRAB' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\QingXin\SiftingData\SiftingDataBll\SqlHelper.cs:行号 841
+10:22:01.556 INSERT INTO SGMRAB (RAB001,RAB002,RAB003,RAB004,RAB005,RAB007,RAB020,RAB980,RAB981,RAB982) VALUES (@RAB001,@RAB002,@RAB003,@RAB004,@RAB005,@RAB007,@RAB020,@RAB980,@RAB981,@RAB982) 
+10:24:14.164 @RAB001 GD201804040006
+10:24:14.166 @RAB002 006
+10:24:14.167 @RAB003 2010011
+10:24:14.168 @RAB004 东方田园条茶16孔下
+10:24:14.169 @RAB005 KG
+10:24:14.170 @RAB007 31.000000
+10:24:14.171 @RAB020 
+10:24:14.172 @RAB980 6
+10:24:14.173 @RAB981 11.000000
+10:24:14.174 @RAB982 9.000000
+10:24:14.177 @RAB001 GD201804040006
+10:24:14.178 @RAB002 006
+10:24:14.179 @RAB003 1010001
+10:24:14.180 @RAB004 通商绿茶
+10:24:14.181 @RAB005 KG
+10:24:14.182 @RAB007 17.000000
+10:24:14.183 @RAB020 
+10:24:14.184 @RAB980 3
+10:24:14.185 @RAB981 5.000000
+10:24:14.186 @RAB982 6.000000
+10:24:14.219 违反了 PRIMARY KEY 约束 'SGMRABK0'。不能在对象 'dbo.SGMRAB' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\QingXin\SiftingData\SiftingDataBll\SqlHelper.cs:行号 841
+10:24:14.220 INSERT INTO SGMRAB (RAB001,RAB002,RAB003,RAB004,RAB005,RAB007,RAB020,RAB980,RAB981,RAB982) VALUES (@RAB001,@RAB002,@RAB003,@RAB004,@RAB005,@RAB007,@RAB020,@RAB980,@RAB981,@RAB982) 
+10:27:17.643 @RAB001 GD201804040006
+10:27:17.645 @RAB002 007
+10:27:17.646 @RAB003 2010011
+10:27:17.647 @RAB004 东方田园条茶16孔下
+10:27:17.649 @RAB005 KG
+10:27:17.650 @RAB007 31.000000
+10:27:17.651 @RAB020 
+10:27:17.652 @RAB980 6
+10:27:17.654 @RAB981 11.000000
+10:27:17.655 @RAB982 9.000000
+10:27:17.658 @RAB001 GD201804040006
+10:27:17.660 @RAB002 006
+10:27:17.661 @RAB003 1010001
+10:27:17.662 @RAB004 通商绿茶
+10:27:17.663 @RAB005 KG
+10:27:17.665 @RAB007 17.000000
+10:27:17.666 @RAB020 
+10:27:17.667 @RAB980 3
+10:27:17.668 @RAB981 5.000000
+10:27:17.670 @RAB982 6.000000
+11:19:15.944 @LIB001 CK20180525
+11:19:15.946 @LIB002 002
+11:19:15.947 @LIB003 2010011
+11:19:15.948 @LIB004 东方田园条茶16孔下
+11:19:15.950 @LIB005 KG
+11:19:15.951 @LIB006 冷库A3
+11:19:15.952 @LIB008 13.000000
+11:19:15.954 @LIB019 2017111106,30
+11:19:15.955 @LIB982 3
+11:19:15.960 @LIB983 4.000000
+11:19:15.971 @LIB001 CK20180525
+11:19:15.973 @LIB002 001
+11:19:15.974 @LIB003 2010011
+11:19:15.975 @LIB004 东方田园条茶16孔下
+11:19:15.976 @LIB005 KG
+11:19:15.976 @LIB006 冷库A5
+11:19:15.977 @LIB008 5.000000
+11:19:15.978 @LIB019 2018030803,30
+11:19:15.979 @LIB982 1
+11:19:15.980 @LIB983 2.000000
+11:19:15.986 @LIB001 CK20180525
+11:19:15.987 @LIB002 003
+11:19:15.988 @LIB003 1010001
+11:19:15.989 @LIB004 通商绿茶
+11:19:15.990 @LIB005 KG
+11:19:15.991 @LIB006 有机区
+11:19:15.992 @LIB008 17.000000
+11:19:15.993 @LIB019 2018012802,16
+11:19:15.994 @LIB982 3
+11:19:15.995 @LIB983 4.000000
+11:19:16.000 @LIB001 CK20180525
+11:19:16.002 @LIB002 000
+11:19:16.003 @LIB003 2010011
+11:19:16.004 @LIB004 东方田园条茶16孔下
+11:19:16.005 @LIB005 KG
+11:19:16.006 @LIB006 有机区
+11:19:16.007 @LIB008 13.000000
+11:19:16.008 @LIB019 2018012802,16
+11:19:16.009 @LIB982 2
+11:19:16.010 @LIB983 3.000000
+11:25:27.838 @idx 3
+11:25:27.838 @DEL001 2010011
+11:25:27.854 @DEL002 东方田园条茶16孔下
+11:25:27.854 @DEL003 
+11:25:27.854 @DEL004 KG
+11:25:27.854 @DEL005 2018012802,16
+11:25:27.854 @DEL006 有机区
+11:25:27.854 @DEL007 2
+11:25:27.854 @DEL008 3.000000
+11:25:27.854 @DEL009 7.000000
+11:25:27.854 @DEL010 3.000000
+11:25:27.854 @DEL011 GD201804040006
+11:25:27.854 @idx 1
+11:25:27.854 @DEL001 1010001
+11:25:27.854 @DEL002 通商绿茶
+11:25:27.870 @DEL003 
+11:25:27.870 @DEL004 KG
+11:25:27.870 @DEL005 2018012802,16
+11:25:27.870 @DEL006 有机区
+11:25:27.870 @DEL007 3
+11:25:27.870 @DEL008 4.000000
+11:25:27.870 @DEL009 5.000000
+11:25:27.870 @DEL010 6.000000
+11:25:27.870 @DEL011 GD201804040006
+11:25:27.870 @idx 4
+11:25:27.870 @DEL001 2010011
+11:25:27.870 @DEL002 东方田园条茶16孔下
+11:25:27.870 @DEL003 
+11:25:27.870 @DEL004 KG
+11:25:27.870 @DEL005 2018030803,30
+11:25:27.885 @DEL006 冷库A5
+11:25:27.885 @DEL007 1
+11:25:27.885 @DEL008 2.000000
+11:25:27.885 @DEL009 3.000000
+11:25:27.885 @DEL010 1.000000
+11:25:27.885 @DEL011 GD201804040006
+11:25:27.885 @idx 2
+16:45:58.771 @DEL001 2010011
+16:45:58.772 @DEL002 东方田园条茶16孔下
+16:45:58.773 @DEL003 
+16:45:58.774 @DEL004 KG
+16:45:58.775 @DEL005 2018030803,30
+16:45:58.776 @DEL006 冷库A5
+16:45:58.777 @DEL007 1
+16:45:58.779 @DEL008 2
+16:45:58.780 @DEL009 0
+16:45:58.781 @DEL010 1
+16:45:58.782 @DEL011 GD201804040006
+16:45:58.786 @DEL001 2010011
+16:45:58.788 @DEL002 东方田园条茶16孔下
+16:45:58.789 @DEL003 
+16:45:58.790 @DEL004 KG
+16:45:58.791 @DEL005 2018012802,16
+16:45:58.792 @DEL006 有机区
+16:45:58.793 @DEL007 1
+16:45:58.794 @DEL008 2
+16:45:58.795 @DEL009 0
+16:45:58.796 @DEL010 1
+16:45:58.797 @DEL011 GD201804040006
+16:45:58.798 @DEL001 2010011
+16:45:58.799 @DEL002 东方田园条茶16孔下
+16:45:58.800 @DEL003 
+16:45:58.801 @DEL004 KG
+16:45:58.802 @DEL005 2017101002,30
+16:45:58.803 @DEL006 冷库A3
+16:45:58.804 @DEL007 1
+16:45:58.805 @DEL008 2
+16:45:58.806 @DEL009 0
+16:45:58.807 @DEL010 1
+16:45:58.808 @DEL011 GD201804040006
+16:45:58.809 @DEL001 2010011
+16:45:58.810 @DEL002 东方田园条茶16孔下
+16:45:58.811 @DEL003 
+16:45:58.813 @DEL004 KG
+16:45:58.814 @DEL005 2017111106,30
+16:45:58.815 @DEL006 冷库A3
+16:45:58.816 @DEL007 1
+16:45:58.816 @DEL008 2
+16:45:58.817 @DEL009 0
+16:45:58.818 @DEL010 1
+16:45:58.819 @DEL011 GD201804040006

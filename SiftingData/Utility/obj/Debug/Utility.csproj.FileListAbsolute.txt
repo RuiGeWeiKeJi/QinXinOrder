@@ -1,0 +1,44 @@
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.dll
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.pdb
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.dll
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.pdb
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.dll
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Setup\Utility.pdb
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.dll
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.pdb
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Setup\Utility.dll
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Setup\Utility.pdb
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Utility\obj\Debug\Utility.dll
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Utility\obj\Debug\Utility.pdb
+E:\jxd\My\FishManageMS20150308\SRC\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+E:\jinxiangdong\person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+E:\MyJob\Person\Project\FishManageMS\SRC\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\练习\项目源码\FishSolution\Setup\Utility.dll
+D:\练习\项目源码\FishSolution\Setup\Utility.pdb
+D:\练习\项目源码\FishSolution\Utility\obj\Debug\Utility.dll
+D:\练习\项目源码\FishSolution\Utility\obj\Debug\Utility.pdb
+D:\练习\项目源码\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Project data\FishSolution\Setup\Utility.dll
+D:\Project data\FishSolution\Setup\Utility.pdb
+D:\Project data\FishSolution\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Project data\FishSolution\Utility\obj\Debug\Utility.dll
+D:\Project data\FishSolution\Utility\obj\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Carpenter\Setup\Utility.dll
+C:\Users\Administrator\Desktop\Carpenter\Setup\Utility.pdb
+C:\Users\Administrator\Desktop\Carpenter\Utility\obj\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Carpenter\Utility\obj\Debug\Utility.pdb
+D:\Project data\MoXia\Carpenter\Setup\Utility.dll
+D:\Project data\MoXia\Carpenter\Setup\Utility.pdb
+D:\Project data\MoXia\Carpenter\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Project data\MoXia\Carpenter\Utility\obj\Debug\Utility.dll
+D:\Project data\MoXia\Carpenter\Utility\obj\Debug\Utility.pdb
+D:\Project data\QingXin\SiftingData\Setup\Utility.dll
+D:\Project data\QingXin\SiftingData\Setup\Utility.pdb
+D:\Project data\QingXin\SiftingData\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Project data\QingXin\SiftingData\Utility\obj\Debug\Utility.dll
+D:\Project data\QingXin\SiftingData\Utility\obj\Debug\Utility.pdb
+D:\Project data\QingXin\工单\SiftingData\Setup\Utility.dll
+D:\Project data\QingXin\工单\SiftingData\Setup\Utility.pdb
+D:\Project data\QingXin\工单\SiftingData\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\Project data\QingXin\工单\SiftingData\Utility\obj\Debug\Utility.dll
+D:\Project data\QingXin\工单\SiftingData\Utility\obj\Debug\Utility.pdb

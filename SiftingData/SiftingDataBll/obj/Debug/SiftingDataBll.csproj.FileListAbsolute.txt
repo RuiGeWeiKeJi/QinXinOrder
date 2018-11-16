@@ -1,0 +1,264 @@
+D:\Project data\QingXin\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.csprojResolveAssemblyReference.cache
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\SqlHelper.cs
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.pdb
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\Utility.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Data.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\Utility.pdb
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Data.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.pdb
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\SiftingDataEntity.dll
+D:\Project data\QingXin\SiftingData\SiftingDataBll\bin\Debug\SiftingDataEntity.pdb
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SqlHelper.cs
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.pdb
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataEntity.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\Utility.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Data.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataEntity.pdb
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\Utility.pdb
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Data.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.csprojResolveAssemblyReference.cache
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.dll
+D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.pdb
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SqlHelper.cs
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.pdb
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataEntity.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\Utility.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Data.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataEntity.pdb
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\Utility.pdb
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Data.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.csprojResolveAssemblyReference.cache
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.dll
+D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.pdb

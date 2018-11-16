@@ -1,0 +1,281 @@
+13:57:59.943 @DEL001 2010011
+13:57:59.946 @DEL002 东方田园条茶16孔下
+13:57:59.948 @DEL003 
+13:57:59.951 @DEL004 KG
+13:57:59.952 @DEL005 2018012802,16
+13:57:59.954 @DEL006 有机区
+13:57:59.955 @DEL007 1
+13:57:59.956 @DEL008 2.000000
+13:57:59.957 @DEL009 0.000000
+13:57:59.958 @DEL010 1.000000
+13:57:59.959 @DEL011 GD201804040006
+13:57:59.960 @idx 6
+13:57:59.969 @DEL001 2010011
+13:57:59.970 @DEL002 东方田园条茶16孔下
+13:57:59.971 @DEL003 
+13:57:59.972 @DEL004 KG
+13:57:59.974 @DEL005 2018030803,30
+13:57:59.975 @DEL006 冷库A5
+13:57:59.976 @DEL007 1
+13:57:59.977 @DEL008 2.000000
+13:57:59.978 @DEL009 0.000000
+13:57:59.979 @DEL010 1.000000
+13:57:59.980 @DEL011 GD201804040006
+13:57:59.981 @idx 5
+13:57:59.983 @DEL001 2010011
+13:57:59.984 @DEL002 东方田园条茶16孔下
+13:57:59.986 @DEL003 
+13:57:59.986 @DEL004 KG
+13:57:59.987 @DEL005 2017101002,30
+13:57:59.989 @DEL006 冷库A3
+13:57:59.990 @DEL007 1
+13:57:59.992 @DEL008 2.000000
+13:57:59.993 @DEL009 0.000000
+13:57:59.994 @DEL010 1.000000
+13:57:59.995 @DEL011 GD201804040006
+13:57:59.997 @idx 7
+13:57:59.999 @DEL001 2010011
+13:58:00.000 @DEL002 东方田园条茶16孔下
+13:58:00.002 @DEL003 
+13:58:00.003 @DEL004 KG
+13:58:00.004 @DEL005 2017111106,30
+13:58:00.005 @DEL006 冷库A3
+13:58:00.006 @DEL007 1
+13:58:00.007 @DEL008 2.000000
+13:58:00.008 @DEL009 0.000000
+13:58:00.009 @DEL010 1.000000
+13:58:00.010 @DEL011 GD201804040006
+13:58:00.011 @idx 8
+14:14:39.930 @LIB001 CK201805260001
+14:14:39.932 @LIB002 003
+14:14:39.933 @LIB003 2010011
+14:14:39.934 @LIB004 东方田园条茶16孔下
+14:14:39.935 @LIB005 KG
+14:14:39.936 @LIB006 冷库A3
+14:14:39.937 @LIB008 2.000000
+14:14:39.938 @LIB019 2017111106,30
+14:14:39.939 @LIB982 1
+14:14:39.941 @LIB983 2.000000
+14:14:40.002 INSERT 语句与 FOREIGN KEY 约束"FK_JSKLIB_JSKLIA"冲突。该冲突发生于数据库"QX"，表"dbo.JSKLIA", column 'LIA001'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\QingXin\SiftingData\SiftingDataBll\SqlHelper.cs:行号 841
+14:14:40.003 INSERT INTO JSKLIB (LIB001,LIB002,LIB003,LIB004,LIB005,LIB006,LIB008,LIB019,LIB982,LIB983) VALUES (@LIB001,@LIB002,@LIB003,@LIB004,@LIB005,@LIB006,@LIB008,@LIB019,@LIB982,@LIB983) 
+14:17:13.003 @LIB001 CK201805260001
+14:17:13.006 @LIB002 002
+14:17:13.007 @LIB003 2010011
+14:17:13.008 @LIB004 东方田园条茶16孔下
+14:17:13.009 @LIB005 KG
+14:17:13.011 @LIB006 有机区
+14:17:13.013 @LIB008 2.000000
+14:17:13.014 @LIB019 2018012802,16
+14:17:13.015 @LIB982 1
+14:17:13.017 @LIB983 2.000000
+14:17:13.024 @LIB001 CK201805260001
+14:17:13.026 @LIB002 004
+14:17:13.027 @LIB003 2010011
+14:17:13.028 @LIB004 东方田园条茶16孔下
+14:17:13.029 @LIB005 KG
+14:17:13.030 @LIB006 冷库A3
+14:17:13.031 @LIB008 2.000000
+14:17:13.032 @LIB019 2017111106,30
+14:17:13.034 @LIB982 1
+14:17:13.035 @LIB983 2.000000
+14:17:13.037 @LIB001 CK201805260001
+14:17:13.038 @LIB002 003
+14:17:13.039 @LIB003 2010011
+14:17:13.040 @LIB004 东方田园条茶16孔下
+14:17:13.042 @LIB005 KG
+14:17:13.043 @LIB006 冷库A3
+14:17:13.044 @LIB008 2.000000
+14:17:13.045 @LIB019 2017101002,30
+14:17:13.046 @LIB982 1
+14:17:13.047 @LIB983 2.000000
+14:17:13.049 @LIB001 CK201805260001
+14:17:13.051 @LIB002 001
+14:17:13.052 @LIB003 2010011
+14:17:13.053 @LIB004 东方田园条茶16孔下
+14:17:13.054 @LIB005 KG
+14:17:13.055 @LIB006 冷库A5
+14:17:13.056 @LIB008 2.000000
+14:17:13.057 @LIB019 2018030803,30
+14:17:13.058 @LIB982 1
+14:17:13.059 @LIB983 2.000000
+14:44:34.074 @LIB001 CK201805260001
+14:44:34.076 @LIB002 001
+14:44:34.077 @LIB003 2010011
+14:44:34.078 @LIB004 东方田园条茶16孔下
+14:44:34.079 @LIB005 KG
+14:44:34.080 @LIB006 冷库A5
+14:44:34.081 @LIB008 2.000000
+14:44:34.082 @LIB019 2018030803,30
+14:44:34.084 @LIB982 1
+14:44:34.085 @LIB983 2.000000
+14:44:34.091 @LIB001 CK201805260001
+14:44:34.092 @LIB002 002
+14:44:34.094 @LIB003 2010011
+14:44:34.098 @LIB004 东方田园条茶16孔下
+14:44:34.099 @LIB005 KG
+14:44:34.100 @LIB006 有机区
+14:44:34.101 @LIB008 2.000000
+14:44:34.102 @LIB019 2018012802,16
+14:44:34.104 @LIB982 1
+14:44:34.105 @LIB983 2.000000
+14:44:34.111 @LIB001 CK201805260001
+14:44:34.113 @LIB002 004
+14:44:34.115 @LIB003 2010011
+14:44:34.116 @LIB004 东方田园条茶16孔下
+14:44:34.117 @LIB005 KG
+14:44:34.119 @LIB006 冷库A3
+14:44:34.120 @LIB008 2.000000
+14:44:34.121 @LIB019 2017111106,30
+14:44:34.122 @LIB982 1
+14:44:34.123 @LIB983 2.000000
+14:44:34.125 @LIB001 CK201805260001
+14:44:34.127 @LIB002 003
+14:44:34.128 @LIB003 2010011
+14:44:34.129 @LIB004 东方田园条茶16孔下
+14:44:34.130 @LIB005 KG
+14:44:34.131 @LIB006 冷库A3
+14:44:34.132 @LIB008 2.000000
+14:44:34.134 @LIB019 2017101002,30
+14:44:34.135 @LIB982 1
+14:44:34.136 @LIB983 2.000000
+14:45:28.797 @DEL001 2010011
+14:45:28.798 @DEL002 东方田园条茶16孔下
+14:45:28.799 @DEL003 
+14:45:28.800 @DEL004 KG
+14:45:28.801 @DEL005 2017111106,30
+14:45:28.802 @DEL006 冷库A3
+14:45:28.803 @DEL007 1
+14:45:28.805 @DEL008 2
+14:45:28.806 @DEL009 1
+14:45:28.807 @DEL010 1
+14:45:28.808 @DEL011 GD201804130004
+14:45:28.813 @DEL001 2010011
+14:45:28.814 @DEL002 东方田园条茶16孔下
+14:45:28.815 @DEL003 
+14:45:28.816 @DEL004 KG
+14:45:28.817 @DEL005 2017101002,30
+14:45:28.818 @DEL006 冷库A3
+14:45:28.819 @DEL007 1
+14:45:28.820 @DEL008 2
+14:45:28.821 @DEL009 1
+14:45:28.822 @DEL010 1
+14:45:28.823 @DEL011 GD201804130004
+14:45:28.825 @DEL001 2010011
+14:45:28.826 @DEL002 东方田园条茶16孔下
+14:45:28.828 @DEL003 
+14:45:28.829 @DEL004 KG
+14:45:28.830 @DEL005 2018012802,16
+14:45:28.831 @DEL006 有机区
+14:45:28.832 @DEL007 1
+14:45:28.833 @DEL008 2
+14:45:28.835 @DEL009 1
+14:45:28.836 @DEL010 1
+14:45:28.837 @DEL011 GD201804130004
+14:45:28.839 @DEL001 2010011
+14:45:28.840 @DEL002 东方田园条茶16孔下
+14:45:28.842 @DEL003 
+14:45:28.843 @DEL004 KG
+14:45:28.844 @DEL005 2018030803,30
+14:45:28.845 @DEL006 冷库A5
+14:45:28.846 @DEL007 1
+14:45:28.847 @DEL008 2
+14:45:28.848 @DEL009 1
+14:45:28.850 @DEL010 1
+14:45:28.851 @DEL011 GD201804130004
+14:45:33.415 @LIB001 CK201805260001
+14:45:33.417 @LIB002 001
+14:45:33.419 @LIB003 2010011
+14:45:33.420 @LIB004 东方田园条茶16孔下
+14:45:33.422 @LIB005 KG
+14:45:33.424 @LIB006 冷库A3
+14:45:33.426 @LIB008 3.000000
+14:45:33.428 @LIB019 2017111106,30
+14:45:33.430 @LIB982 1
+14:45:33.431 @LIB983 2.000000
+14:45:33.435 @LIB001 CK201805260001
+14:45:33.437 @LIB002 002
+14:45:33.438 @LIB003 2010011
+14:45:33.440 @LIB004 东方田园条茶16孔下
+14:45:33.441 @LIB005 KG
+14:45:33.444 @LIB006 冷库A3
+14:45:33.446 @LIB008 3.000000
+14:45:33.447 @LIB019 2017101002,30
+14:45:33.448 @LIB982 1
+14:45:33.449 @LIB983 2.000000
+14:45:33.451 @LIB001 CK201805260001
+14:45:33.452 @LIB002 003
+14:45:33.454 @LIB003 2010011
+14:45:33.455 @LIB004 东方田园条茶16孔下
+14:45:33.456 @LIB005 KG
+14:45:33.457 @LIB006 有机区
+14:45:33.458 @LIB008 3.000000
+14:45:33.459 @LIB019 2018012802,16
+14:45:33.460 @LIB982 1
+14:45:33.462 @LIB983 2.000000
+14:45:33.464 @LIB001 CK201805260001
+14:45:33.465 @LIB002 004
+14:45:33.466 @LIB003 2010011
+14:45:33.467 @LIB004 东方田园条茶16孔下
+14:45:33.468 @LIB005 KG
+14:45:33.469 @LIB006 冷库A5
+14:45:33.471 @LIB008 3.000000
+14:45:33.472 @LIB019 2018030803,30
+14:45:33.473 @LIB982 1
+14:45:33.474 @LIB983 2.000000
+14:45:37.619 @LIB001 CK201805260001
+14:45:37.622 @LIB002 001
+14:45:37.624 @LIB003 2010011
+14:45:37.626 @LIB004 东方田园条茶16孔下
+14:45:37.628 @LIB005 KG
+14:45:37.630 @LIB006 冷库A5
+14:45:37.632 @LIB008 2.000000
+14:45:37.635 @LIB019 2018030803,30
+14:45:37.637 @LIB982 1
+14:45:37.639 @LIB983 2.000000
+14:45:37.672 违反了 PRIMARY KEY 约束 'JSKLIBK0'。不能在对象 'dbo.JSKLIB' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\QingXin\SiftingData\SiftingDataBll\SqlHelper.cs:行号 841
+14:45:37.674 INSERT INTO JSKLIB (LIB001,LIB002,LIB003,LIB004,LIB005,LIB006,LIB008,LIB019,LIB982,LIB983) VALUES (@LIB001,@LIB002,@LIB003,@LIB004,@LIB005,@LIB006,@LIB008,@LIB019,@LIB982,@LIB983) 
+14:48:21.017 @LIB001 CK201805260002
+14:48:21.019 @LIB002 004
+14:48:21.020 @LIB003 2010011
+14:48:21.021 @LIB004 东方田园条茶16孔下
+14:48:21.023 @LIB005 KG
+14:48:21.025 @LIB006 冷库A3
+14:48:21.026 @LIB008 2.000000
+14:48:21.028 @LIB019 2017111106,30
+14:48:21.030 @LIB982 1
+14:48:21.031 @LIB983 2.000000
+14:48:21.050 INSERT 语句与 FOREIGN KEY 约束"FK_JSKLIB_JSKLIA"冲突。该冲突发生于数据库"QX"，表"dbo.JSKLIA", column 'LIA001'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\QingXin\SiftingData\SiftingDataBll\SqlHelper.cs:行号 841
+14:48:21.052 INSERT INTO JSKLIB (LIB001,LIB002,LIB003,LIB004,LIB005,LIB006,LIB008,LIB019,LIB982,LIB983) VALUES (@LIB001,@LIB002,@LIB003,@LIB004,@LIB005,@LIB006,@LIB008,@LIB019,@LIB982,@LIB983) 

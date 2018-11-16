@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/25/2018 15:54:09" ReportInfo.Modified="07/18/2018 15:16:14" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuBXekJKO91OtuSTce/q3mJz7C9HOXeCUUMjAvUOHLGgLQ==">
+      <TableDataSource Name="Table" Alias="TableOne" DataType="System.Int32" Enabled="true" SelectCommand="SELECT IBB001,IBB003,IBB004,IBB041,IBB961,CONVERT(FLOAT,IBB006) IBB006,CONVERT(FLOAT,IBB980) IBB980,CONVERT(FLOAT,IBB981) IBB981 FROM DCSIBB A INNER JOIN QIXDEL B ON A.IBB001=B.DEL017">
+        <Column Name="IBB961" DataType="System.String"/>
+        <Column Name="IBB981" DataType="System.Decimal"/>
+        <Column Name="IBB980" DataType="System.Decimal"/>
+        <Column Name="IBB001" DataType="System.String"/>
+        <Column Name="IBB003" DataType="System.String"/>
+        <Column Name="IBB004" DataType="System.String"/>
+        <Column Name="IBB041" DataType="System.String"/>
+        <Column Name="IBB006" DataType="System.Double"/>
+      </TableDataSource>
+      <TableDataSource Name="Table1" Alias="TableTwo" DataType="System.Int32" Enabled="true" SelectCommand="SELECT DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,CONVERT(FLOAT,DEL008) DEL008,CONVERT(FLOAT,DEL009) DEL009,CONVERT(FLOAT,DEL010) DEL010,CONVERT(FLOAT,DEL007*DEL008+DEL009) U0 FROM QIXDEL &#13;&#10;">
+        <Column Name="DEL001" DataType="System.String"/>
+        <Column Name="DEL002" DataType="System.String"/>
+        <Column Name="DEL003" DataType="System.String"/>
+        <Column Name="DEL004" DataType="System.String"/>
+        <Column Name="DEL005" DataType="System.String"/>
+        <Column Name="DEL006" DataType="System.String"/>
+        <Column Name="DEL007" DataType="System.Int32"/>
+        <Column Name="DEL008" DataType="System.Decimal"/>
+        <Column Name="DEL009" DataType="System.Decimal"/>
+        <Column Name="DEL010" DataType="System.Decimal"/>
+        <Column Name="U0" DataType="System.Double"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+    <Total Name="Total007" Expression="[TableTwo.DEL007]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total008" Expression="[TableTwo.DEL008]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total009" Expression="[TableTwo.DEL009]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Totalu0" Expression="[TableTwo.U0]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total010" Expression="[TableTwo.DEL010]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9" Duplex="Vertical">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="85.05">
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Text="杭州清心茶业有限公司加工通知单" HorzAlign="Center" Font="宋体, 20pt, style=Bold"/>
+      <TextObject Name="Text2" Top="37.8" Width="85.05" Height="18.9" Text="订单单号:" Font="宋体, 12pt"/>
+      <TextObject Name="Text3" Left="85.05" Top="37.8" Width="113.4" Height="18.9" Text="[TableOne.IBB001]" Font="宋体, 12pt"/>
+      <TextObject Name="Text4" Left="378" Top="66.15" Width="85.05" Height="18.9" Text="订单数量:" Font="宋体, 12pt"/>
+      <TextObject Name="Text5" Left="463.05" Top="66.15" Width="94.5" Height="18.9" Text="[TableOne.IBB006]" Font="宋体, 12pt"/>
+      <TextObject Name="Text6" Left="378" Top="37.8" Width="85.05" Height="18.9" Text="订单批号:" Font="宋体, 12pt"/>
+      <TextObject Name="Text7" Left="463.05" Top="37.8" Width="94.5" Height="18.9" Text="[TableOne.IBB961]" Font="宋体, 12pt"/>
+      <TextObject Name="Text8" Top="66.15" Width="85.05" Height="18.9" Text="主件品号:" Font="宋体, 12pt"/>
+      <TextObject Name="Text9" Left="85.05" Top="66.15" Width="113.4" Height="18.9" Text="[TableOne.IBB003]" Font="宋体, 12pt"/>
+      <TextObject Name="Text10" Left="198.45" Top="37.8" Width="56.7" Height="18.9" Text="品名:" HorzAlign="Right" Font="宋体, 12pt"/>
+      <TextObject Name="Text12" Left="198.45" Top="66.15" Width="56.7" Height="18.9" Text="规格:" HorzAlign="Right" Font="宋体, 12pt"/>
+      <TextObject Name="Text13" Left="557.55" Top="66.15" Width="75.6" Height="18.9" Text="总毛重:" Font="宋体, 12pt"/>
+      <TextObject Name="Text14" Left="255.15" Top="66.15" Width="122.85" Height="18.9" Text="[TableOne.IBB041]" Font="宋体, 12pt"/>
+      <TextObject Name="Text15" Left="633.15" Top="66.15" Width="85.05" Height="18.9" Text="[TableOne.IBB981]" Font="宋体, 12pt"/>
+      <TextObject Name="Text16" Left="557.55" Top="37.8" Width="75.6" Height="18.9" Text="总净重:" Font="宋体, 12pt"/>
+      <TextObject Name="Text17" Left="633.15" Top="37.8" Width="85.05" Height="18.9" Text="[TableOne.IBB980]" Font="宋体, 12pt"/>
+      <TextObject Name="Text26" Left="-9450" Top="-9450" Width="28.35" Height="9.45" Text="件重" Font="宋体, 5pt"/>
+      <TextObject Name="Text41" Left="255.15" Top="37.8" Width="122.85" Height="18.9" Text="[TableOne.IBB004]" Font="宋体, 12pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="89.05" Width="718.2" Height="37.8">
+      <TextObject Name="Text18" Width="75.6" Height="37.8" Border.Lines="All" Text="子件品号" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text19" Left="75.6" Width="132.3" Height="37.8" Border.Lines="All" Text="子件品名" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text21" Left="274.05" Width="28.35" Height="37.8" Border.Lines="All" Text="单位" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text22" Left="302.4" Width="113.4" Height="37.8" Border.Lines="All" Text="批号" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text23" Left="415.8" Width="56.7" Height="37.8" Border.Lines="All" Text="仓库" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text24" Left="472.5" Width="47.25" Height="37.8" Border.Lines="All" Text="件数" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text25" Left="519.75" Width="47.25" Height="37.8" Border.Lines="All" Text="件重" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text27" Left="567" Width="47.25" Height="37.8" Border.Lines="All" Text="零头" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text20" Left="614.25" Width="47.25" Height="37.8" Border.Lines="All" Text="预计用量" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text28" Left="661.5" Width="56.7" Height="37.8" Border.Lines="All" Text="拼配比例" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text39" Left="207.9" Width="66.15" Height="37.8" Border.Lines="All" Text="规格" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="130.85" Width="718.2" Height="28.35" DataSource="Table1">
+      <TextObject Name="Text42" Width="75.6" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL001]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text43" Left="75.6" Width="132.3" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL002]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text44" Left="274.05" Width="28.35" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL004]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text45" Left="302.4" Width="113.4" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL005]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text46" Left="415.8" Width="56.7" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL006]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text47" Left="472.5" Width="47.25" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL007]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text48" Left="519.75" Width="47.25" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL008]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text49" Left="567" Width="47.25" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL009]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text50" Left="614.25" Width="47.25" Height="28.35" Border.Lines="All" Text="[TableTwo.U0]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text51" Left="661.5" Width="56.7" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL010]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text52" Left="207.9" Width="66.15" Height="28.35" Border.Lines="All" Text="[TableTwo.DEL003]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="163.2" Width="718.2" Height="28.35">
+      <TextObject Name="Text53" Width="472.5" Height="28.35" Border.Lines="All" Text="合          计" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text54" Left="472.5" Width="47.25" Height="28.35" Border.Lines="All" Text="[Total007]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text55" Left="519.75" Width="47.25" Height="28.35" Border.Lines="All" Text="[Total008]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text56" Left="567" Width="47.25" Height="28.35" Border.Lines="All" Text="[Total009]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text57" Left="614.25" Width="47.25" Height="28.35" Border.Lines="All" Text="[Totalu0]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text58" Left="661.5" Width="56.7" Height="28.35" Border.Lines="All" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+    </ReportSummaryBand>
+  </ReportPage>
+</Report>

@@ -1,0 +1,257 @@
+16:00:14.455 @DEL001 2010011
+16:00:14.457 @DEL002 东方田园条茶16孔下
+16:00:14.458 @DEL003 
+16:00:14.458 @DEL004 KG
+16:00:14.459 @DEL005 2018012802,16
+16:00:14.460 @DEL006 有机区
+16:00:14.460 @DEL007 1.11
+16:00:14.461 @DEL008 3.121
+16:00:14.461 @DEL009 4.23
+16:00:14.462 @DEL010 2
+16:00:14.463 @DEL011 GD201804030001
+16:00:14.463 @DEL012 2
+16:00:14.464 @DEL013 FWEFW
+WEFW
+FWEF
+WFEEW
+FWEF
+WEFW
+EFWF
+
+16:00:14.468 @DEL001 2010011
+16:00:14.469 @DEL002 东方田园条茶16孔下
+16:00:14.469 @DEL003 
+16:00:14.470 @DEL004 KG
+16:00:14.470 @DEL005 2017101002,30
+16:00:14.471 @DEL006 冷库A3
+16:00:14.471 @DEL007 1
+16:00:14.472 @DEL008 2.1
+16:00:14.472 @DEL009 2
+16:00:14.473 @DEL010 2
+16:00:14.473 @DEL011 GD201804030001
+16:00:14.474 @DEL012 2
+16:00:14.474 @DEL013 FWEFW
+WEFW
+FWEF
+WFEEW
+FWEF
+WEFW
+EFWF
+
+16:00:14.477 @DEL001 2010011
+16:00:14.478 @DEL002 东方田园条茶16孔下
+16:00:14.479 @DEL003 
+16:00:14.479 @DEL004 KG
+16:00:14.480 @DEL005 2017111106,30
+16:00:14.480 @DEL006 冷库A3
+16:00:14.481 @DEL007 1.1
+16:00:14.481 @DEL008 2.3
+16:00:14.482 @DEL009 1.23
+16:00:14.482 @DEL010 2
+16:00:14.483 @DEL011 GD201804030001
+16:00:14.483 @DEL012 2
+16:00:14.484 @DEL013 FWEFW
+WEFW
+FWEF
+WFEEW
+FWEF
+WEFW
+EFWF
+
+16:00:14.487 @DEL001 2010011
+16:00:14.488 @DEL002 东方田园条茶16孔下
+16:00:14.488 @DEL003 
+16:00:14.489 @DEL004 KG
+16:00:14.489 @DEL005 2018030803,30
+16:00:14.490 @DEL006 冷库A5
+16:00:14.490 @DEL007 1.111
+16:00:14.491 @DEL008 3.345
+16:00:14.491 @DEL009 5.34
+16:00:14.492 @DEL010 2
+16:00:14.492 @DEL011 GD201804030001
+16:00:14.493 @DEL012 2
+16:00:14.493 @DEL013 FWEFW
+WEFW
+FWEF
+WFEEW
+FWEF
+WEFW
+EFWF
+
+17:15:20.765 对象名 'QIXDEL' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 241
+17:15:20.767 SELECT idx,DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,DEL008,DEL009,DEL010,DEL011,DEL012,DEL013 FROM QIXDEL WHERE DEL011='GD201804030001'
+17:15:41.812 对象名 'QIXDEL' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 241
+17:15:41.813 SELECT idx,DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,DEL008,DEL009,DEL010,DEL011,DEL012,DEL013 FROM QIXDEL WHERE DEL011='GD201804030001'
+17:21:22.696 列名 'idx' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 241
+17:21:22.698 SELECT idx,DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,DEL008,DEL009,DEL010,DEL011,DEL012,DEL013 FROM QIXDEL WHERE DEL011='GD201804030001'
+17:31:15.060 @DEL001 2010011
+17:31:15.062 @DEL002 东方田园条茶16孔下
+17:31:15.063 @DEL003 
+17:31:15.064 @DEL004 KG
+17:31:15.065 @DEL005 2018012802,16
+17:31:15.066 @DEL006 有机区
+17:31:15.067 @DEL007 1
+17:31:15.068 @DEL008 1
+17:31:15.069 @DEL009 1
+17:31:15.069 @DEL010 33.33%
+17:31:15.070 @DEL011 GD201804040006
+17:31:15.071 @DEL012 
+17:31:15.071 @DEL013 
+17:31:15.074 @DEL001 2010011
+17:31:15.075 @DEL002 东方田园条茶16孔下
+17:31:15.076 @DEL003 
+17:31:15.076 @DEL004 KG
+17:31:15.077 @DEL005 2017101002,30
+17:31:15.077 @DEL006 冷库A3
+17:31:15.078 @DEL007 1
+17:31:15.078 @DEL008 1
+17:31:15.079 @DEL009 1
+17:31:15.079 @DEL010 33.33%
+17:31:15.080 @DEL011 GD201804040006
+17:31:15.081 @DEL012 
+17:31:15.081 @DEL013 
+17:31:15.083 @DEL001 2010011
+17:31:15.084 @DEL002 东方田园条茶16孔下
+17:31:15.085 @DEL003 
+17:31:15.085 @DEL004 KG
+17:31:15.086 @DEL005 2017111106,30
+17:31:15.086 @DEL006 冷库A3
+17:31:15.087 @DEL007 1
+17:31:15.087 @DEL008 1
+17:31:15.088 @DEL009 1
+17:31:15.089 @DEL010 
+17:31:15.089 @DEL011 GD201804040006
+17:31:15.090 @DEL012 
+17:31:15.090 @DEL013 
+17:31:15.092 @DEL001 2010011
+17:31:15.093 @DEL002 东方田园条茶16孔下
+17:31:15.093 @DEL003 
+17:31:15.094 @DEL004 KG
+17:31:15.095 @DEL005 2018030803,30
+17:31:15.095 @DEL006 冷库A5
+17:31:15.096 @DEL007 1
+17:31:15.096 @DEL008 1
+17:31:15.097 @DEL009 1
+17:31:15.098 @DEL010 33.33%
+17:31:15.098 @DEL011 GD201804040006
+17:31:15.099 @DEL012 
+17:31:15.099 @DEL013 
+17:41:16.923 @DEL001 2010011
+17:41:16.925 @DEL002 东方田园条茶16孔下
+17:41:16.927 @DEL003 
+17:41:16.928 @DEL004 KG
+17:41:16.929 @DEL005 2017101002,30
+17:41:16.930 @DEL006 冷库A3
+17:41:16.931 @DEL007 1
+17:41:16.932 @DEL008 1
+17:41:16.932 @DEL009 1
+17:41:16.933 @DEL010 8.82%
+17:41:16.934 @DEL011 GD201804030001
+17:41:16.935 @DEL012 
+17:41:16.936 @DEL013 
+17:41:16.939 @DEL001 2010011
+17:41:16.940 @DEL002 东方田园条茶16孔下
+17:41:16.941 @DEL003 
+17:41:16.942 @DEL004 KG
+17:41:16.942 @DEL005 2018030803,30
+17:41:16.943 @DEL006 冷库A5
+17:41:16.944 @DEL007 5
+17:41:16.946 @DEL008 3
+17:41:16.947 @DEL009 1
+17:41:16.948 @DEL010 26.47%
+17:41:16.948 @DEL011 GD201804030001
+17:41:16.949 @DEL012 
+17:41:16.950 @DEL013 
+17:41:16.953 @DEL001 2010011
+17:41:16.954 @DEL002 东方田园条茶16孔下
+17:41:16.955 @DEL003 
+17:41:16.956 @DEL004 KG
+17:41:16.957 @DEL005 2018012802,16
+17:41:16.957 @DEL006 有机区
+17:41:16.958 @DEL007 3
+17:41:16.959 @DEL008 4
+17:41:16.960 @DEL009 5
+17:41:16.960 @DEL010 35.29%
+17:41:16.961 @DEL011 GD201804030001
+17:41:16.961 @DEL012 
+17:41:16.962 @DEL013 
+17:41:16.964 @DEL001 2010011
+17:41:16.964 @DEL002 东方田园条茶16孔下
+17:41:16.965 @DEL003 
+17:41:16.966 @DEL004 KG
+17:41:16.966 @DEL005 2017111106,30
+17:41:16.967 @DEL006 冷库A3
+17:41:16.967 @DEL007 2
+17:41:16.968 @DEL008 4
+17:41:16.969 @DEL009 4
+17:41:16.969 @DEL010 29.41%
+17:41:16.970 @DEL011 GD201804030001
+17:41:16.970 @DEL012 
+17:41:16.971 @DEL013 
+17:41:53.419 从数据类型 nvarchar 转换为 float 时出错。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   在 System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   在 System.Data.SqlClient.SqlDataReader.Read()
+   在 System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   在 System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 241
+17:41:53.420 SELECT DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,CONVERT(FLOAT,DEL008) DEL008,CONVERT(FLOAT,DEL009) DEL009,CONVERT(FLOAT,DEL010) DEL010,CONVERT(FLOAT,DEL007*DEL008+DEL009) U0 FROM QIXDEL  WHERE DEL011 ='GD201804030001'

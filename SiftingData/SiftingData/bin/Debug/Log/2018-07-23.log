@@ -1,0 +1,83 @@
+13:10:15.623 @DEL001 2010019
+13:10:15.623 @DEL002 神户绿茶原料
+13:10:15.623 @DEL003 
+13:10:15.623 @DEL004 KG
+13:10:15.623 @DEL005 2018012803,40
+13:10:15.623 @DEL006 BCP
+13:10:15.623 @DEL007 12
+13:10:15.623 @DEL008 3
+13:10:15.623 @DEL009 23
+13:10:15.639 @DEL010 7.81%
+13:10:15.639 @DEL011 1010076
+13:10:15.639 @DEL012 
+13:10:15.639 @DEL013 
+13:10:15.639 @DEL015 20180723001
+13:10:15.639 @DEL016 省茶叶 茉莉花茶（JASMINE GREEN TEA  #050008)
+13:10:15.639 @DEL017 DD201807040001
+13:10:15.639 @DEL001 2010019
+13:10:15.639 @DEL002 神户绿茶原料
+13:10:15.639 @DEL003 
+13:10:15.639 @DEL004 KG
+13:10:15.639 @DEL005 2018022603,40
+13:10:15.654 @DEL006 BCP
+13:10:15.654 @DEL007 23
+13:10:15.654 @DEL008 23
+13:10:15.654 @DEL009 3
+13:10:15.654 @DEL010 70.46%
+13:10:15.654 @DEL011 1010076
+13:10:15.654 @DEL012 
+13:10:15.654 @DEL013 
+13:10:15.654 @DEL015 20180723001
+13:10:15.654 @DEL016 省茶叶 茉莉花茶（JASMINE GREEN TEA  #050008)
+13:10:15.654 @DEL017 DD201807040001
+13:10:15.654 @DEL001 2010019
+13:10:15.654 @DEL002 神户绿茶原料
+13:10:15.670 @DEL003 
+13:10:15.670 @DEL004 KG
+13:10:15.670 @DEL005 2018022603,40
+13:10:15.670 @DEL006 D318
+13:10:15.670 @DEL007 23
+13:10:15.670 @DEL008 3
+13:10:15.670 @DEL009 3
+13:10:15.670 @DEL010 9.54%
+13:10:15.670 @DEL011 1010076
+13:10:15.670 @DEL012 
+13:10:15.670 @DEL013 
+13:10:15.670 @DEL015 20180723001
+13:10:15.670 @DEL016 省茶叶 茉莉花茶（JASMINE GREEN TEA  #050008)
+13:10:15.670 @DEL017 DD201807040001
+13:10:15.686 @DEL001 2010019
+13:10:15.686 @DEL002 神户绿茶原料
+13:10:15.686 @DEL003 
+13:10:15.686 @DEL004 KG
+13:10:15.686 @DEL005 20180721,45
+13:10:15.686 @DEL006 BCP
+13:10:15.686 @DEL007 23
+13:10:15.686 @DEL008 3
+13:10:15.686 @DEL009 23
+13:10:15.686 @DEL010 12.19%
+13:10:15.686 @DEL011 1010076
+13:10:15.686 @DEL012 
+13:10:15.686 @DEL013 
+13:10:15.686 @DEL015 20180723001
+13:10:15.686 @DEL016 省茶叶 茉莉花茶（JASMINE GREEN TEA  #050008)
+13:10:15.686 @DEL017 DD201807040001
+16:44:36.268 'WHERE' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 241
+16:44:36.269 SELECT idx,DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,DEL008,DEL009,DEL010,DEL011,DEL012,DEL013,DEL014,DEL015,DEL016,DEL017 FROM QIXDEL WHERE 

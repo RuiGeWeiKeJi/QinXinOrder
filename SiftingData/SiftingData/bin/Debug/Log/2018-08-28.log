@@ -1,0 +1,114 @@
+17:12:01.577 @DEL001 2010011
+17:12:01.581 @DEL002 东方田园条茶16孔下
+17:12:01.582 @DEL003 
+17:12:01.583 @DEL004 KG
+17:12:01.584 @DEL005 2017101002,30
+17:12:01.585 @DEL006 冷库A3
+17:12:01.587 @DEL007 1
+17:12:01.588 @DEL008 1
+17:12:01.589 @DEL009 2
+17:12:01.590 @DEL010 33.33%
+17:12:01.592 @DEL011 1160026
+17:12:01.593 @DEL012 
+17:12:01.594 @DEL013 
+17:12:01.596 @DEL015 20180828001
+17:12:01.597 @DEL016 浦安 茉莉花茶袋泡茶
+17:12:01.598 @DEL017 DD201803210002
+17:12:01.600 @DEL018 008
+17:12:01.606 @DEL001 2010011
+17:12:01.607 @DEL002 东方田园条茶16孔下
+17:12:01.609 @DEL003 
+17:12:01.610 @DEL004 KG
+17:12:01.611 @DEL005 2018040202,40
+17:12:01.612 @DEL006 冷库A1
+17:12:01.613 @DEL007 1
+17:12:01.615 @DEL008 1
+17:12:01.616 @DEL009 2
+17:12:01.617 @DEL010 33.33%
+17:12:01.618 @DEL011 1160026
+17:12:01.619 @DEL012 
+17:12:01.620 @DEL013 
+17:12:01.622 @DEL015 20180828001
+17:12:01.623 @DEL016 浦安 茉莉花茶袋泡茶
+17:12:01.624 @DEL017 DD201803210002
+17:12:01.625 @DEL018 008
+17:12:01.665 ',' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 841
+17:12:01.666 UPDATE DCSIBB SET IBB965='20180828001' WHERE IBB001='DD201803210002',IBB002='008'
+17:16:55.082 @DEL001 2010011
+17:16:55.084 @DEL002 东方田园条茶16孔下
+17:16:55.086 @DEL003 
+17:16:55.087 @DEL004 KG
+17:16:55.088 @DEL005 2018012802,16
+17:16:55.089 @DEL006 有机区
+17:16:55.091 @DEL007 1
+17:16:55.092 @DEL008 2
+17:16:55.093 @DEL009 3
+17:16:55.094 @DEL010 33.33%
+17:16:55.095 @DEL011 1160027
+17:16:55.097 @DEL012 
+17:16:55.098 @DEL013 
+17:16:55.100 @DEL015 20180828001
+17:16:55.101 @DEL016 浦安 普洱袋泡茶
+17:16:55.102 @DEL017 DD201803210002
+17:16:55.104 @DEL018 009
+17:16:55.109 @DEL001 2010011
+17:16:55.111 @DEL002 东方田园条茶16孔下
+17:16:55.112 @DEL003 
+17:16:55.113 @DEL004 KG
+17:16:55.114 @DEL005 2018062702,30
+17:16:55.116 @DEL006 冷库B5
+17:16:55.117 @DEL007 1
+17:16:55.118 @DEL008 2
+17:16:55.119 @DEL009 3
+17:16:55.120 @DEL010 33.33%
+17:16:55.122 @DEL011 1160027
+17:16:55.123 @DEL012 
+17:16:55.124 @DEL013 
+17:16:55.125 @DEL015 20180828001
+17:16:55.126 @DEL016 浦安 普洱袋泡茶
+17:16:55.127 @DEL017 DD201803210002
+17:16:55.128 @DEL018 009
+17:16:55.131 @DEL001 2010011
+17:16:55.132 @DEL002 东方田园条茶16孔下
+17:16:55.134 @DEL003 
+17:16:55.135 @DEL004 KG
+17:16:55.136 @DEL005 2017101002,30
+17:16:55.137 @DEL006 冷库A3
+17:16:55.138 @DEL007 1
+17:16:55.139 @DEL008 2
+17:16:55.140 @DEL009 3
+17:16:55.141 @DEL010 33.33%
+17:16:55.143 @DEL011 1160027
+17:16:55.144 @DEL012 
+17:16:55.145 @DEL013 
+17:16:55.146 @DEL015 20180828001
+17:16:55.147 @DEL016 浦安 普洱袋泡茶
+17:16:55.148 @DEL017 DD201803210002
+17:16:55.150 @DEL018 009
+17:17:05.051 '!' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 241
+17:17:05.052 SELECT DISTINCT IBB001,IBA003,DFA002,IBB003,IBB004,IBB961 FROM DCSIBA A INNER JOIN DCSIBB B ON A.IBA001=B.IBB001 INNER JOIN TPADFA C ON DFA001=IBA004  AND IBB015='N' AND IBB023='T' AND IBB965=!''

@@ -1,0 +1,90 @@
+17:42:44.460 列名 'idx' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\QingXin\SiftingData\SiftingDataBll\SqlHelper.cs:行号 241
+17:42:44.462 SELECT idx,DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,DEL008,DEL009,DEL010,DEL011 FROM QIXDEL WHERE DEL011='GD201804040005'
+17:45:07.026 @DEL001 2010011
+17:45:07.028 @DEL002 东方田园条茶16孔下
+17:45:07.030 @DEL003 
+17:45:07.031 @DEL004 KG
+17:45:07.032 @DEL005 2018012802,16
+17:45:07.033 @DEL006 有机区
+17:45:07.034 @DEL007 2
+17:45:07.035 @DEL008 3
+17:45:07.036 @DEL009 4
+17:45:07.037 @DEL010 0
+17:45:07.039 @DEL011 GD201804040006
+17:45:53.835 @DEL001 2010011
+17:45:53.837 @DEL002 东方田园条茶16孔下
+17:45:53.838 @DEL003 
+17:45:53.839 @DEL004 KG
+17:45:53.840 @DEL005 2018012802,16
+17:45:53.842 @DEL006 有机区
+17:45:53.843 @DEL007 2
+17:45:53.844 @DEL008 3.000000
+17:45:53.846 @DEL009 4.000000
+17:45:53.848 @DEL010 0.000000
+17:45:53.849 @DEL011 GD201804040006
+17:45:53.850 @id 1
+17:45:53.887 列名 'id' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\QingXin\SiftingData\SiftingDataBll\SqlHelper.cs:行号 841
+17:45:53.889 update QIXDEL set DEL001=@DEL001,DEL002=@DEL002,DEL003=@DEL003,DEL004=@DEL004,DEL005=@DEL005,DEL006=@DEL006,DEL007=@DEL007,DEL008=@DEL008,DEL009=@DEL009,DEL010=@DEL010,DEL011=@DEL011 where id=@id
+17:47:38.656 @DEL001 2010011
+17:47:38.658 @DEL002 东方田园条茶16孔下
+17:47:38.659 @DEL003 
+17:47:38.660 @DEL004 KG
+17:47:38.661 @DEL005 2018012802,16
+17:47:38.663 @DEL006 有机区
+17:47:38.663 @DEL007 2
+17:47:38.664 @DEL008 3.000000
+17:47:38.668 @DEL009 7
+17:47:38.669 @DEL010 0.000000
+17:47:38.670 @DEL011 GD201804040006
+17:47:38.672 @idx 1
+17:49:10.230 @DEL001 2010011
+17:49:10.232 @DEL002 东方田园条茶16孔下
+17:49:10.233 @DEL003 
+17:49:10.234 @DEL004 KG
+17:49:10.235 @DEL005 2018012802,16
+17:49:10.236 @DEL006 有机区
+17:49:10.237 @DEL007 2
+17:49:10.238 @DEL008 3.000000
+17:49:10.239 @DEL009 7.000000
+17:49:10.240 @DEL010 3
+17:49:10.241 @DEL011 GD201804040006
+17:49:10.242 @idx 1
+17:49:25.768 @DEL001 2010011
+17:49:25.770 @DEL002 东方田园条茶16孔下
+17:49:25.771 @DEL003 
+17:49:25.772 @DEL004 KG
+17:49:25.773 @DEL005 2018012802,16
+17:49:25.774 @DEL006 有机区
+17:49:25.775 @DEL007 2
+17:49:25.776 @DEL008 3.000000
+17:49:25.777 @DEL009 7.000000
+17:49:25.779 @DEL010 3.000000
+17:49:25.780 @DEL011 GD201804040006
+17:49:25.781 @idx 1

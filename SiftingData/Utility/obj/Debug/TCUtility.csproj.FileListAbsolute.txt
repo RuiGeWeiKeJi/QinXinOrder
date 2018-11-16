@@ -1,0 +1,5 @@
+E:\workspace\2.HIS V2.0\2.SRC\TCHisApplication\TCHISClient\Setup\TCUtility.dll
+E:\workspace\2.HIS V2.0\2.SRC\TCHisApplication\TCHISClient\Setup\TCUtility.pdb
+E:\workspace\2.HIS V2.0\2.SRC\TCHisApplication\TCHISClient\TCUtility\obj\Debug\TCUtility.dll
+E:\workspace\2.HIS V2.0\2.SRC\TCHisApplication\TCHISClient\TCUtility\obj\Debug\TCUtility.pdb
+E:\workspace\2.HIS V2.0\2.SRC\TCHisApplication\TCHISClient\TCUtility\obj\Debug\TCUtility.csprojResolveAssemblyReference.cache
