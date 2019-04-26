@@ -1,0 +1,90 @@
+09:40:32.942 对象名 'MOXLOG' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 381
+09:40:32.953 INSERT INTO MOXLOG (LOG001,LOG002,LOG003,LOG004,LOG005,LOG006) VALUES ('FormMain','',GETDATE(),'SELECT DISTINCT IBB001,IBA003,DFA002,IBB003,IBB004,IBB961 FROM DCSIBA A INNER JOIN DCSIBB B ON A.IBA001=B.IBB001 INNER JOIN TPADFA C ON DFA001=IBA004  AND  IBB023=''T'' AND IBB965!=''''','','') 
+09:40:32.961 对象名 'MOXLOG' 无效。
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 397
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 184
+   在 CarpenterBll.LogHelperToSql.SaveLog(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\LogHelperToSql.cs:行号 55
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 460
+09:40:33.058 对象名 'MOXLOG' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 381
+09:40:33.059 INSERT INTO MOXLOG (LOG001,LOG002,LOG003,LOG004,LOG005,LOG006) VALUES ('FormMain','',GETDATE(),'SELECT DEA001,DEA002,DEA057,DEA003 FROM TPADEA','','') 
+09:40:33.065 对象名 'MOXLOG' 无效。
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 397
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 184
+   在 CarpenterBll.LogHelperToSql.SaveLog(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\LogHelperToSql.cs:行号 55
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 460
+09:40:33.100 对象名 'MOXLOG' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 381
+09:40:33.100 INSERT INTO MOXLOG (LOG001,LOG002,LOG003,LOG004,LOG005,LOG006) VALUES ('FormMain','',GETDATE(),'SELECT DISTINCT DEL015,DEL017,DEL016 FROM QIXDEL ORDER BY DEL015 DESC','','') 
+09:40:33.106 对象名 'MOXLOG' 无效。
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 397
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 184
+   在 CarpenterBll.LogHelperToSql.SaveLog(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\LogHelperToSql.cs:行号 55
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 460
+09:40:38.059 对象名 'MOXLOG' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 381
+09:40:38.059 INSERT INTO MOXLOG (LOG001,LOG002,LOG003,LOG004,LOG005,LOG006) VALUES ('FormMain','',GETDATE(),'SELECT DISTINCT IBB003,IBB004,IBB041,IBB961,IBB006,IBB005,IBB980,IBB981,IBB002 FROM DCSIBB WHERE IBB001=''DD201806110005''  AND  IBB023=''T'' AND IBB965!='''' ','','') 
+09:40:38.073 对象名 'MOXLOG' 无效。
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 397
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 184
+   在 CarpenterBll.LogHelperToSql.SaveLog(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\LogHelperToSql.cs:行号 55
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 460
+09:40:46.756 对象名 'MOXLOG' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 381
+09:40:46.756 INSERT INTO MOXLOG (LOG001,LOG002,LOG003,LOG004,LOG005,LOG006) VALUES ('FormMain','',GETDATE(),'SELECT idx,DEL001,DEL002,DEL003,DEL004,DEL005,DEL006,DEL007,DEL008,DEL009,DEL010,DEL011,DEL012,DEL013,DEL014,DEL015,DEL016,DEL017,DEL018 FROM QIXDEL WHERE 1=1 AND DEL015=''20180619003''','','') 
+09:40:46.766 对象名 'MOXLOG' 无效。
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 397
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 184
+   在 CarpenterBll.LogHelperToSql.SaveLog(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\LogHelperToSql.cs:行号 55
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 460
+09:40:46.910 对象名 'MOXLOG' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 381
+09:40:46.910 INSERT INTO MOXLOG (LOG001,LOG002,LOG003,LOG004,LOG005,LOG006) VALUES ('FormMain','',GETDATE(),'SELECT DISTINCT IBB003,IBB004,IBB041,IBB961,IBB006,IBB005,IBB980,IBB981,IBB002 FROM DCSIBB WHERE IBB001=''DD201806070004''  AND  IBB023=''T'' AND IBB965!='''' ','','') 
+09:40:46.922 对象名 'MOXLOG' 无效。
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(SqlConnection conn, String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 397
+   在 StudentMgr.SqlHelper.ExecuteNonQuery(String cmdText) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 184
+   在 CarpenterBll.LogHelperToSql.SaveLog(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\LogHelperToSql.cs:行号 55
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\SqlHelper.cs:行号 460

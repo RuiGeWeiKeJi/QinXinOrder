@@ -37,6 +37,8 @@ namespace SiftingData
         #region Main
         protected override int Query ( )
         {
+            
+
             if ( string . IsNullOrEmpty ( txtDEL015 . Text ) && string . IsNullOrEmpty ( txtRAA001 . Text ) && string . IsNullOrEmpty ( txtRAA015 . Text ) )
             {
                 XtraMessageBox . Show ( "请选择配方单号或订单号和主件品号" );
@@ -592,7 +594,7 @@ namespace SiftingData
         void getQueryForColumn ( )
         {
             strW = "1=1";
-            strW = " AND IBB015='N' AND IBB023='T' AND IBB965!=''";
+            strW = " AND  IBB023='T' AND IBB965!=''";//IBB015='N' AND
             tableQuery = _bll . getTableQuery ( strW );
             txtRAA001 . Properties . DataSource = tableQuery;
             txtRAA001 . Properties . DisplayMember = "IBB001";

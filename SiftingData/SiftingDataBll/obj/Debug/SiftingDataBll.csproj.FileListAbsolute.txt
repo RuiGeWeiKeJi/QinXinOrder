@@ -174,7 +174,6 @@ D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\ru\DevExpres
 D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.csprojResolveAssemblyReference.cache
 D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.dll
 D:\Project data\QingXin\工单\SiftingData\SiftingDataBll\obj\Debug\SiftingDataBll.pdb
-D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SqlHelper.cs
 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.dll
 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataBll.pdb
 D:\ProjectData\QingXin\工单\SiftingData\SiftingDataBll\bin\Debug\SiftingDataEntity.dll

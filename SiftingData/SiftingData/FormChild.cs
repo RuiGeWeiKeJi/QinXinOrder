@@ -1,5 +1,6 @@
 ﻿using FastReport;
 using FastReport . Export . Xml;
+using SiftingDataBll;
 using System;
 using System . Data;
 using System . Windows . Forms;
@@ -38,7 +39,7 @@ namespace SiftingData
 
         protected virtual int Query ( )
         {
-            
+           
             return 0;
         }
         protected void QueryTool ( )
@@ -54,16 +55,18 @@ namespace SiftingData
         }
         private void toolQuery_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "查询";
             Query ( );
         }
 
         protected virtual int Add (  )
-        {       
-
+        {
+           
             return 0;
         }
         private void toolAdd_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "新增";
             Add ( );
         }
         protected void addTool ( )
@@ -86,6 +89,7 @@ namespace SiftingData
         }
         private void toolEdit_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "编辑";
             Edit ( );
         }
         protected void editTool ( )
@@ -102,7 +106,7 @@ namespace SiftingData
 
         protected virtual int Delete ( )
         {
-           
+            
             return 0;
         }
         protected void deleteTool ( )
@@ -118,17 +122,19 @@ namespace SiftingData
         }
         private void toolDelete_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "删除";
             Delete ( );
         }
 
 
         protected virtual int Save ( )
         {
-            
+           
             return 0;
         }
         private void toolSave_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "保存";
             Save ( );
         }
         protected void saveTool ( )
@@ -145,11 +151,12 @@ namespace SiftingData
 
         protected virtual int Cancel ( )
         {
-          
+           
             return 0;
         }
         private void toolCanecl_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "取消";
             Cancel ( );
         }
         protected void cancelTool ( string  state)
@@ -185,6 +192,7 @@ namespace SiftingData
         }
         private void toolPrint_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "打印";
             Print ( );
         }
 
@@ -195,6 +203,7 @@ namespace SiftingData
         }
         private void toolExport_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "导出";
             Export ( );
         }
 
@@ -255,10 +264,12 @@ namespace SiftingData
 
         protected virtual int QueryAll ( )
         {
+            
             return 0;
         }
         private void toolQueryAll_ItemClick ( object sender ,DevExpress . XtraBars . ItemClickEventArgs e )
         {
+            UserInfoMation . TypeOfOper = "全查";
             QueryAll ( );
         }
     }
